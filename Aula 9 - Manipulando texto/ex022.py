@@ -1,0 +1,7 @@
+nome = input('Qual o seu nome? ')
+maiu = nome.upper()
+minu = nome.lower()
+junto = nome.split()
+qntd = len(''.join(junto))
+qntd1 = len(nome.split()[0])
+print(f'Maiúsculas= {maiu} \nMinúsculas= {minu} \nLetras(sem espaços)= {qntd} \nLetras(primeiro nome)= {qntd1}')
